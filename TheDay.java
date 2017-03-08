@@ -1,7 +1,5 @@
 package HDOJ;
 
-import java.util.Scanner;
-
 /**
  Problem Description
  给定一个日期，输出这个日期是该年的第几天。
@@ -23,6 +21,9 @@ import java.util.Scanner;
 
  闰年口诀：四年一闰，百年不闰，400年一闰；
  */
+
+import java.util.Scanner;
+
 public class TheDay {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
