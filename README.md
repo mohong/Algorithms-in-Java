@@ -24,6 +24,7 @@
 	- 71 
 
 - **代码实现**
+
 [TheDay](https://github.com/mohong/Algorithms-in-Java/blob/master/TheDay.java)
 
 ----------
@@ -50,5 +51,9 @@
 	- 
 	- 6574
 
+
+- **代码实现**
+
+[AgeEighteen](https://github.com/mohong/Algorithms-in-Java/blob/master/AgeEighteen.java)
 
 ## 参考博客：[JINKELA_](http://blog.csdn.net/GoodLuckAC/article/category/5665809)
