@@ -1,5 +1,3 @@
-package HDOJ;
-
 import java.util.Scanner;
 
 public class AgeEighteen {
