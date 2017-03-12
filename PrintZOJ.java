@@ -37,6 +37,7 @@ public class PrintZOJ {
                     count3--;
                 }
             }
+            System.out.println();
         }
     }
 }
