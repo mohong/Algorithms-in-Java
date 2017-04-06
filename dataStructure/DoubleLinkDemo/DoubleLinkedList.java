@@ -1,7 +1,5 @@
 package dataStructure.DoubleLinkDemo;
 
-import LinkListDemo.*;
-
 /**
  * 双向链表
  * 双向双端链表（有尾指针）
