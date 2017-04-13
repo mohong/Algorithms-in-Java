@@ -1,7 +1,5 @@
 package dataStructure.topoApp;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
 public class Graph {
     private final int MAX_VERTXS = 20;
     private Vertex[] vertexList;
