@@ -9,7 +9,7 @@ import java.util.Arrays;
  */
 public class Main {
     public static void main(String[] args) {
-        int N = 500000;
+        int N = 2000;
         System.out.println("Test for random array, size = " + N + " , random range [0, " + N + "]");
 
         Integer[] arr1 = SortTestHelper.generateRandomArray(N, 0, N);

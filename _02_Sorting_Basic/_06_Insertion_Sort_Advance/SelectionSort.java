@@ -32,7 +32,7 @@ public class SelectionSort {
 
     public static void main(String[] args) {
         // 测试排序算法辅助函数
-        int N = 40000;
+        int N = 20000;
         Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100000);
         SortTestHelper.testSort("_02_Sorting_Basic._04_Selection_Sort_Detect_Performance.SelectionSort", arr);
     }

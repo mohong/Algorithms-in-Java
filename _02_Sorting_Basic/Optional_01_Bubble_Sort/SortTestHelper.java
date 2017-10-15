@@ -1,4 +1,4 @@
-package _02_Sorting_Basic._06_Insertion_Sort_Advance;
+package _02_Sorting_Basic.Optional_01_Bubble_Sort;
 
 import java.lang.reflect.Method;
 

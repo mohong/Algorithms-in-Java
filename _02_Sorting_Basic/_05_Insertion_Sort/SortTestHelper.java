@@ -31,7 +31,7 @@ public class SortTestHelper {
 
     //判断数组是否有序
     public static boolean isSorted(Comparable[] arr) {
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length - 1; i++) {
             if (arr[i].compareTo(arr[i + 1]) > 0) {
                 return false;
             }
@@ -55,7 +55,11 @@ public class SortTestHelper {
             sortMethod.invoke(null,params);
             long endTime = System.currentTimeMillis();
 
-            assert isSorted( arr );
+            // assert isSorted( arr );  // 貌似无效了
+            if (!isSorted(arr)) {
+                System.out.println("array is not sorted");
+                return;
+            }
 
             System.out.println( sortClass.getSimpleName()+ " : " + (endTime-startTime) + "ms" );
         }

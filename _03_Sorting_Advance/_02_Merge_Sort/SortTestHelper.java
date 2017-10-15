@@ -1,4 +1,4 @@
-package _02_Sorting_Basic._06_Insertion_Sort_Advance;
+package _03_Sorting_Advance._02_Merge_Sort;
 
 import java.lang.reflect.Method;
 
