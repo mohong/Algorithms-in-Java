@@ -1,4 +1,4 @@
-package _05_Binary_Search_Tree._03__02_Binary_Search_Tree_Insert;
+package _05_Binary_Search_Tree._03_Binary_Search_Tree_Insert;
 
 /**
  * 二分搜索树
