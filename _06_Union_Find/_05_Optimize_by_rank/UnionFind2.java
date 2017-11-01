@@ -1,7 +1,6 @@
-package _06_Union_Find._03_Quick_Union;
+package _06_Union_Find._05_Optimize_by_rank;
 
 /**
- *
  * Created by mohon on 2017/10/31.
  */
 public class UnionFind2 {
