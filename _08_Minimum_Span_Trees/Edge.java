@@ -28,7 +28,7 @@ public class Edge<Weight extends Number & Comparable> implements Comparable {
         return b;
     }
 
-    public Weight weight () {  // 返回权值
+    public Weight wt () {  // 返回权值
         return weight;
     }
 
@@ -40,6 +40,16 @@ public class Edge<Weight extends Number & Comparable> implements Comparable {
     // 输出边的信息
     public String toString(){
         return "" + a + "-" + b + ": " + weight;
+    }
+
+    public int compareTo(Edge that) {    // 边之间的比较
+        if (weight.compareTo(that.wt()) < 0) {
+            return -1;
+        } else if (weight.compareTo(that.wt()) > 0)
+            return 1;
+        else {
+            return 0;
+        }
     }
 
     @Override
