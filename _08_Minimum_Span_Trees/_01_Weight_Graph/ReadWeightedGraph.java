@@ -1,4 +1,4 @@
-package _08_Minimum_Span_Trees;
+package _08_Minimum_Span_Trees._01_Weight_Graph;
 
 import java.io.BufferedInputStream;
 import java.io.File;

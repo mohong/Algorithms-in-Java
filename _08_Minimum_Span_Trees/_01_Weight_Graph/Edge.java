@@ -1,4 +1,4 @@
-package _08_Minimum_Span_Trees;
+package _08_Minimum_Span_Trees._01_Weight_Graph;
 
 /**
  * Created by mohon on 2017/11/23.
